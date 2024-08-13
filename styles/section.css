@@ -22,6 +22,10 @@
       margin-top: 20px;
     }
   }
+
+  .card:hover{
+    border: 1px solid var(--gray-400);
+  }
 }
 
 #services{
@@ -31,7 +35,7 @@
 
   #skills{
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-inline: 239px;
     .card-service {

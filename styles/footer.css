@@ -1,0 +1,40 @@
+footer{
+  background-image: url(/assets/Background_Contacts.png);
+  background-size: cover;
+  padding-block: 128px 200px;
+
+  span{
+    color: var(--purple);
+  }
+}
+
+#contacts {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  .card-social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 400px;
+    height: 68px;
+    padding-inline: 20px;
+    background-color: var(--gray-300);
+    background-image: url(/assets/icons/ArrowUpRight.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 20px;
+    border-radius: 8px;
+
+    p {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  .card-social:hover {
+    border: 1px solid var(--blue);
+  }
+}
