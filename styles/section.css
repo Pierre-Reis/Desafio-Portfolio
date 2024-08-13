@@ -1,0 +1,43 @@
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 56px auto 144px;
+  max-width: 1040px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  .card{
+    background-color: var(--gray-300);
+    padding: 12px 12px 17px 12px;
+    border-radius: 12px;
+    width: 330px;
+    height: 280px;
+
+    img{
+      border-radius: 8px;
+    }
+
+    figcaption{
+      margin-top: 20px;
+    }
+  }
+}
+
+#services{
+  width: 100%;
+  background-color: var(--gray-100);
+  padding-block: 88px 120px;
+
+  #skills{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 24px;
+    margin-inline: 239px;
+    .card-service {
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 20px;
+    }
+  }
+}

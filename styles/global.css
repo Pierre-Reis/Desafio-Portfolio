@@ -78,6 +78,7 @@ img{
 
 .subtitle{
   display: flex;
+  margin-bottom: 56px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
